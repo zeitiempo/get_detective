@@ -7,7 +7,6 @@ fi=codecs.open("vol_url_page.txt","r","utf-8")
 context=fi.readlines()
 options=webdriver.ChromeOptions()
 options.add_extension("fpdnjdlbdmifoocedhkighhlbchbiikl_3_2_1.crx")
-#browser=webdriver.Chrome(chrome_options=options)
 for line in context:
     list=line.strip().split()
     vol=list[0]
