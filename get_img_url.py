@@ -8,7 +8,7 @@ context=fi.readlines()
 options=webdriver.ChromeOptions()
 options.add_extension("fpdnjdlbdmifoocedhkighhlbchbiikl_3_2_1.crx")
 #browser=webdriver.Chrome(chrome_options=options)
-for line in context[50:]:
+for line in context:
     list=line.strip().split()
     vol=list[0]
     start_url=list[1]
