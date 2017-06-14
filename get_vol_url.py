@@ -26,6 +26,3 @@ def get_vol_html(response):
 root_url="http://www.iibq.com/comic/82012129525/"
 root_response=get_html(root_url)
 get_vol_html(root_response)
-
-#vol_url="http://www.iibq.com/comic/82012129525/viewcomic139416/"
-#get_img_html(vol_url)
